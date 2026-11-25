@@ -6,11 +6,11 @@ Official studio website for independent, non-commercial software development and
 
 ## Local preview
 
-Run \`python -m http.server 8787 --bind 127.0.0.1 --directory site\` and open http://127.0.0.1:8787/.
+Run `python -m http.server 8787 --bind 127.0.0.1 --directory site` and open http://127.0.0.1:8787/.
 
 ## Deployment
 
-Cloudflare Workers with Static Assets, connected to this repository's \`main\` branch. The deployment command is \`npx wrangler deploy\`. Static assets are in \`site/\`. HTTPS is provided by Cloudflare. No paid domain or additional service is required. Keep the private Skolary source repository separate.
+Cloudflare Workers with Static Assets, connected to this repository's `main` branch. The deployment command is `npx wrangler deploy`. Static assets are in `site/`. HTTPS is provided by Cloudflare. No paid domain or additional service is required. Keep the private Skolary source repository separate.
 
 ## Branding
 

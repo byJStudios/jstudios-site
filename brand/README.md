@@ -4,4 +4,4 @@ The approved wordmark glyphs are unchanged from v0.2 (SHA-256 ea11b09f0e8603b366
 
 Startup: prompt and cursor at 0 ms, cursor off at 500, on at 1000, first key at 1200, second at 1400. The complete wordmark then blinks 500/500 ms. Header starts first; hero begins after 1400 ms. Reduced motion and a user-controlled stop switch show the static mark. No external scripts, fonts or tracking. The full glyph set is not a general-purpose typeface.
 
-Public deployment requires completed operator and privacy information and repository-only authorization in Cloudflare.
+The website is deployed through Cloudflare Workers with repository-only Git integration. Contact information is live; formal legal compliance remains unverified.
