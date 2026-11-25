@@ -18,7 +18,7 @@
     if(!groups.has(host))groups.set(host,{host,marks:[],trigger:svg.dataset.trigger??'startup',delay:Number(svg.dataset.startDelay)||0,done:false});
     groups.get(host).marks.push({glyphs,times,xs,ys,cursor,credit:svg.querySelector('.brand-credit')});
   }
-  const cards=[...document.querySelectorAll('.product,.portfolio-card,.principles article,.features article,.section-head')].map(el=>({el,shift:0,value:1,target:1}));
+  const cards=[...document.querySelectorAll('.product,.portfolio-card,.principles article,.features article,.section-head,.app-preview')].map(el=>({el,shift:0,value:1,target:1}));
   let paused=media.matches,epoch=performance.now(),timer=0,frame=0,dirty=true,lastFrame=null;
   const idleOn=()=>Date.now()%1000<500;
   const revealCredit=(g,ready)=>{

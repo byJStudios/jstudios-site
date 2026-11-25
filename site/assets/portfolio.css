@@ -39,3 +39,5 @@
 @media(max-width:599px){.portfolio-card h3{container-type:inline-size}.portfolio-card .portfolio-heading{min-height:calc(22cqw + 24px)}}
 
 .repo-link{font-size:.85rem;color:var(--muted);margin-top:12px;text-decoration:underline;text-underline-offset:3px}.project-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}.project-actions a{max-width:100%}
+
+.app-preview{margin:0 auto;max-width:1100px;padding:clamp(12px,2vw,24px);background:#101217;border:1px solid var(--line);border-radius:22px}.app-preview-bar{display:flex;justify-content:space-between;gap:12px;color:var(--muted);font-size:.82rem;padding:0 4px 12px}.app-preview img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:8px}.app-preview figcaption{text-align:center;color:var(--muted);font-size:.78rem;margin-top:14px}
