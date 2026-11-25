@@ -12,7 +12,7 @@ Use a separate GitHub repository (recommended name: `jstudios-site`), production
 
 ## Before public deployment
 
-- Replace the temporary typographic JStudios/Skolary treatments with approved supplied logo artwork if desired.
+- Approved wordmark glyphs v0.2 are integrated. See [brand kit](brand/README.md) for geometry, source hash, animation and verification notes.
 - Confirm public content, operator/contact details and applicable German legal/privacy information, including the actual hosting provider. The current hints page is technical draft content, not a reviewed legal notice.
 - Do not include real school data, user accounts, private app source or unpublished release binaries.
 
