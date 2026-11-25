@@ -1,19 +1,21 @@
 # JStudios website
 
-Static, independent studio website. Public-facing content only; no app source, credentials, school data, tracking scripts or runtime dependencies.
+Official studio website for independent, non-commercial software development and Skolary. Public-facing content only; no application source, credentials or school data.
 
-## Preview
+**Live:** https://jstudios-site.julianschmitz19.workers.dev/
 
-Run `python -m http.server 8787 --bind 127.0.0.1 --directory site` and open http://127.0.0.1:8787/.
+## Local preview
 
-## Cloudflare Pages
+Run \`python -m http.server 8787 --bind 127.0.0.1 --directory site\` and open http://127.0.0.1:8787/.
 
-Use a separate GitHub repository (recommended name: `jstudios-site`), production branch `main`, framework preset None, build command empty, output directory `site`. Cloudflare receives access to this website repository only. The Pages subdomain is subject to availability. No paid domain is needed.
+## Deployment
 
-## Before public deployment
+Cloudflare Workers with Static Assets, connected to this repository's \`main\` branch. The deployment command is \`npx wrangler deploy\`. Static assets are in \`site/\`. HTTPS is provided by Cloudflare. No paid domain or additional service is required. Keep the private Skolary source repository separate.
 
-- Approved wordmark glyphs v0.2 are integrated. See [brand kit](brand/README.md) for geometry, source hash, animation and verification notes.
-- Confirm public content, operator/contact details and applicable German legal/privacy information, including the actual hosting provider. The current hints page is technical draft content, not a reviewed legal notice.
-- Do not include real school data, user accounts, private app source or unpublished release binaries.
+## Branding
 
-No deployment is active until the owner's Cloudflare project is connected.
+The approved wordmark glyphs v0.2 are integrated. See [brand kit](brand/README.md) for the source hash, geometry, animation and validation. Preserve the approved outlines.
+
+## Contact and privacy
+
+Contact: jstudios.development@gmail.com. The public contact and technical privacy information is not a legal compliance certification. The owner's private address is not published. Do not publish personal school information, credentials or unpublished release binaries.
