@@ -10,3 +10,13 @@
 - Primary mark SVG is a polygon approximation of the approved PNG, mask IoU 99.30%; the approved raster master is not modified.
 
 The website is deployed through Cloudflare Workers with repository-only Git integration. Contact information is live; formal legal compliance remains unverified.
+
+
+## 2026-11-25 — site polish
+
+- Geometry: all existing SVG path data and viewBoxes unchanged; one duplicate animated cursor removed per animated logo. Static SVG assets and both master JSON files unchanged.
+- Edge Chromium: all three pages at 320, 390, 768, 1440, 1920 and 6400 CSS px (18/18). The last viewport uses a 0.25 device scale to simulate extreme zoom-out, not the browser zoom UI.
+- Full-viewport background without tiling and no horizontal overflow verified.
+- Real-time startup sequence and idle blink verified for header and hero on both primary pages. Repeated run with denser sampling observed every character state, including the Skolary credit. An earlier sparse sampling run missed a state.
+- Static fallback without JavaScript and reduced-motion mode passed; no browser runtime exceptions in final run.
+- Legal information is reorganized; complete legal compliance is not certified (no public postal address).

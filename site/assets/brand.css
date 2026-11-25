@@ -1,28 +1,14 @@
-.brand-svg{display:block;max-width:100%;height:auto;color:inherit}.top .brand-js{width:108px}.hero .brand-jstudios,.product-hero .brand-skolary{width:min(100%,660px);margin:0 0 28px;color:#fff}.product .brand-skolary{width:min(100%,420px);margin:0 0 12px}.hero .brand-heading{margin:0 0 20px;font-size:clamp(1.9rem,4vw,3.2rem);letter-spacing:-.055em;line-height:1.1}.brand-credit{fill:currentColor}.typing .cursor-intro{display:none}.typing .cursor-idle{opacity:1}.motion-control{font:inherit;color:var(--muted);border:1px solid var(--line);background:transparent;padding:6px 10px;border-radius:7px;cursor:pointer}.motion-control:focus-visible{outline:2px solid var(--accent)}.motion-control[hidden]{display:none}.footer .brand-js{width:94px}.brand-hero{--start:1400ms}.motion-enabled .typing .glyph:not(.glyph-0){animation:brand-reveal 1ms step-end both;animation-delay:calc(var(--start,0ms) + var(--keytime))}.motion-enabled .typing .cursor-intro{display:block}.motion-enabled .typing .cursor-idle{animation:brand-idle 1s step-end infinite;animation-delay:calc(var(--start,0ms) + var(--end));animation-fill-mode:backwards}.motion-enabled .typing .brand-credit{animation:brand-reveal 1ms step-end both;animation-delay:calc(var(--start,0ms) + var(--end))}@keyframes brand-reveal{from{opacity:0}to{opacity:1}}@keyframes brand-idle{0%{opacity:1}50%{opacity:0}100%{opacity:1}}.motion-enabled .typing .cursor-idle{visibility:hidden;animation-name:brand-idle-visible}@keyframes brand-idle-visible{0%{visibility:visible;opacity:1}50%{visibility:visible;opacity:0}100%{visibility:visible;opacity:1}}.motion-enabled .typing .cursor-idle{animation-fill-mode:forwards}
-.typing.brand-js{--end:1400ms}
-.typing.brand-js .glyph-1{--keytime:1200ms}
-.typing.brand-js .glyph-2{--keytime:1400ms}
-.motion-enabled .typing.brand-js .cursor-intro{animation:brand-start-js 1400ms steps(1,end) both;animation-delay:var(--start,0ms)}
-@keyframes brand-start-js{0.000000000%{transform:translateX(-510px);opacity:1}35.714285714%{transform:translateX(-510px);opacity:0}71.428571429%{transform:translateX(-510px);opacity:1}85.714285714%{transform:translateX(-282px);opacity:1}100.000000000%{transform:translateX(0px);opacity:0}}
-.typing.brand-jstudios{--end:2070ms}
-.typing.brand-jstudios .glyph-1{--keytime:1200ms}
-.typing.brand-jstudios .glyph-2{--keytime:1400ms}
-.typing.brand-jstudios .glyph-3{--keytime:1510ms}
-.typing.brand-jstudios .glyph-4{--keytime:1620ms}
-.typing.brand-jstudios .glyph-5{--keytime:1750ms}
-.typing.brand-jstudios .glyph-6{--keytime:1850ms}
-.typing.brand-jstudios .glyph-7{--keytime:1960ms}
-.typing.brand-jstudios .glyph-8{--keytime:2070ms}
-.motion-enabled .typing.brand-jstudios .cursor-intro{animation:brand-start-jstudios 2070ms steps(1,end) both;animation-delay:var(--start,0ms)}
-@keyframes brand-start-jstudios{0.000000000%{transform:translateX(-566px);opacity:1}24.154589372%{transform:translateX(-566px);opacity:0}48.309178744%{transform:translateX(-566px);opacity:1}57.971014493%{transform:translateX(-489px);opacity:1}67.632850242%{transform:translateX(-394px);opacity:1}72.946859903%{transform:translateX(-341px);opacity:1}78.260869565%{transform:translateX(-263px);opacity:1}84.541062802%{transform:translateX(-188px);opacity:1}89.371980676%{transform:translateX(-150px);opacity:1}94.685990338%{transform:translateX(-76px);opacity:1}100.000000000%{transform:translateX(0px);opacity:0}}
-.typing.brand-skolary{--end:1960ms}
-.typing.brand-skolary .glyph-1{--keytime:1200ms}
-.typing.brand-skolary .glyph-2{--keytime:1400ms}
-.typing.brand-skolary .glyph-3{--keytime:1510ms}
-.typing.brand-skolary .glyph-4{--keytime:1620ms}
-.typing.brand-skolary .glyph-5{--keytime:1740ms}
-.typing.brand-skolary .glyph-6{--keytime:1850ms}
-.typing.brand-skolary .glyph-7{--keytime:1960ms}
-.motion-enabled .typing.brand-skolary .cursor-intro{animation:brand-start-skolary 1960ms steps(1,end) both;animation-delay:var(--start,0ms)}
-@keyframes brand-start-skolary{0.000000000%{transform:translateX(-524px);opacity:1}25.510204082%{transform:translateX(-524px);opacity:0}51.020408163%{transform:translateX(-524px);opacity:1}61.224489796%{transform:translateX(-438px);opacity:1}71.428571429%{transform:translateX(-354px);opacity:1}77.040816327%{transform:translateX(-273px);opacity:1}82.653061224%{transform:translateX(-221px);opacity:1}88.775510204%{transform:translateX(-145px);opacity:1}94.387755102%{transform:translateX(-86px);opacity:1}100.000000000%{transform:translateX(0px);opacity:0}}
-@media(prefers-reduced-motion:reduce){.motion-enabled .typing .glyph,.motion-enabled .typing .brand-credit,.motion-enabled .typing .cursor-idle{animation:none!important;visibility:visible;opacity:1}.motion-enabled .typing .cursor-intro{display:none}}.motion-off .typing .glyph,.motion-off .typing .brand-credit,.motion-off .typing .cursor-idle{animation:none!important;visibility:visible;opacity:1}.motion-off .typing .cursor-intro{display:none}.motion-enabled .typing .cursor-idle{animation-fill-mode:forwards}@media(max-width:480px){.top .brand-js{width:80px}.motion-control{font-size:.73rem}.hero .brand-jstudios,.product-hero .brand-skolary{margin-bottom:20px}}
+/* The approved SVG geometry is immutable; motion changes visibility and cursor position only. */
+.brand-svg{display:block;max-width:100%;height:auto;color:inherit}
+.top .brand-js{width:108px}
+.hero .brand-jstudios,.product-hero .brand-skolary{width:min(100%,660px);margin:0 0 28px;color:#fff}
+.product .brand-skolary{width:min(100%,420px);margin:0 0 12px}
+.hero .brand-heading{margin:0 0 20px;font-size:clamp(1.9rem,4vw,3.2rem);letter-spacing:-.055em;line-height:1.1}
+.brand-credit{fill:currentColor}
+.brand-svg [data-hidden]{visibility:hidden}
+.motion-control{font:inherit;color:var(--muted);border:1px solid var(--line);background:transparent;padding:6px 10px;border-radius:7px;cursor:pointer}
+.motion-control:focus-visible{outline:2px solid var(--accent)}
+.motion-control[hidden]{display:none}
+.footer .brand-js{width:94px}
+@media(max-width:480px){.top .brand-js{width:80px}.motion-control{font-size:.73rem}.hero .brand-jstudios,.product-hero .brand-skolary{margin-bottom:20px}}
+@media(prefers-reduced-motion:reduce){.brand-svg [data-hidden]{visibility:visible}}
