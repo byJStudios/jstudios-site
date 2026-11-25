@@ -12,3 +12,29 @@
 .footer .brand-js{width:94px}
 @media(max-width:480px){.top .brand-js{width:80px}.motion-control{font-size:.73rem}.hero .brand-jstudios,.product-hero .brand-skolary{margin-bottom:20px}}
 @media(prefers-reduced-motion:reduce){.brand-svg [data-hidden]{visibility:visible}}
+
+/* Motion v3: viewport reveal without layout shifts or scroll interception. */
+.motion-enabled .reveal-card{
+ opacity:var(--reveal,1);
+ transform:translateY(var(--reveal-y,0px));
+}
+.motion-enabled .reveal-card:focus-within{opacity:1;transform:none}
+.motion-enabled .portfolio-credit,
+.motion-enabled svg.typing .brand-credit{
+ opacity:0;
+ translate:0 4px;
+ transition:opacity 260ms ease-out,translate 260ms ease-out;
+}
+.motion-enabled .credit-ready > .portfolio-credit,
+.motion-enabled svg.typing.credit-ready .brand-credit{
+ opacity:1;translate:0 0;
+}
+/* Scroll-driven credits follow the card rather than a second timer. */
+.motion-enabled .reveal-card .portfolio-credit,
+.motion-enabled .reveal-card svg.typing .brand-credit{
+ opacity:var(--credit-reveal,1);translate:0 0;transition:none;
+}
+@media(prefers-reduced-motion:reduce){
+ .motion-enabled .reveal-card{opacity:1;transform:none}
+ .motion-enabled .portfolio-credit,.motion-enabled svg.typing .brand-credit{opacity:1;translate:0 0;transition:none}
+}

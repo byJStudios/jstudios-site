@@ -1,0 +1,41 @@
+
+/* Shared scale: every wordmark in the group uses the longest title's viewBox. */
+.portfolio-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.portfolio-card{padding:clamp(18px,2.5vw,30px);border:1px solid var(--line);border-radius:18px;background:var(--panel);display:flex;flex-direction:column;align-items:start;min-width:0}
+.portfolio-card h3{margin:0;width:100%;line-height:1.1}
+.portfolio-heading{display:block;width:100%;min-width:0}
+.portfolio-mark{width:100%;height:auto;max-width:none;max-height:none}
+.portfolio-heading .mark-compact{display:none}
+.portfolio-credit{display:block;font-family:system-ui,sans-serif;font-size:.82rem;letter-spacing:.105em;font-weight:400;line-height:1.4;margin:5px 0 0;color:var(--text)}
+.portfolio-credit[data-hidden]{visibility:hidden}
+.portfolio-card p{color:var(--muted);margin:18px 0 0}
+.portfolio-card .tags{margin:18px 0 24px}
+.portfolio-card .button{margin-top:auto}
+.portfolio-hero{max-width:100%;padding:90px 0 74px}
+.portfolio-hero .portfolio-heading{max-width:1100px}
+.portfolio-hero h1{font-size:inherit;margin-bottom:30px}
+.portfolio-hero .portfolio-credit{font-size:1rem;margin-top:8px}
+.portfolio-card:last-child:nth-child(odd){grid-column:1/-1;width:calc((100% - 20px)/2);justify-self:center}
+@media(min-width:600px) and (max-width:1000px){
+ .portfolio-grid{gap:14px}
+ .portfolio-card{padding:18px}
+ .portfolio-card:last-child:nth-child(odd){width:calc((100% - 14px)/2)}
+}
+@media(max-width:599px){
+ .portfolio-grid{grid-template-columns:minmax(0,1fr);gap:16px}
+ .portfolio-card:last-child:nth-child(odd){grid-column:auto;width:100%}
+ .portfolio-card{padding:20px}
+ .portfolio-heading .mark-wide{display:none}
+ .portfolio-heading .mark-compact{display:block}
+ .portfolio-credit{font-size:.78rem}
+ .portfolio-hero{padding:60px 0 48px}
+ .portfolio-hero .portfolio-credit{font-size:.88rem}
+ .hero .brand-heading{font-size:clamp(1.8rem,7vw,2.7rem)}
+ .hero .lead{font-size:1rem}
+ .section-head h2{font-size:clamp(1.65rem,7vw,2.2rem)}
+}
+@media(prefers-reduced-motion:reduce){.portfolio-credit[data-hidden]{visibility:visible}}
+
+@media(max-width:599px){.portfolio-card h3{container-type:inline-size}.portfolio-card .portfolio-heading{min-height:calc(22cqw + 24px)}}
+
+.repo-link{font-size:.85rem;color:var(--muted);margin-top:12px;text-decoration:underline;text-underline-offset:3px}.project-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}.project-actions a{max-width:100%}

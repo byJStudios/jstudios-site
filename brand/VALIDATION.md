@@ -20,3 +20,10 @@ The website is deployed through Cloudflare Workers with repository-only Git inte
 - Real-time startup sequence and idle blink verified for header and hero on both primary pages. Repeated run with denser sampling observed every character state, including the Skolary credit. An earlier sparse sampling run missed a state.
 - Static fallback without JavaScript and reduced-motion mode passed; no browser runtime exceptions in final run.
 - Legal information is reorganized; complete legal compliance is not certified (no public postal address).
+
+## Portfolio v1.0
+
+- Original and extended glyph masters verified by SHA-256; no changes to approved geometry.
+- Revision 6: 1/4 reveal accepted by owner; simulated frame rates 30–144 Hz and native wheel regression tests passed.
+- Seven public repositories, each a single clean commit with MIT license; application startup tested in separate local copies, not real data.
+- No real school, finance, audio or playback-history files in website or public project repositories.
