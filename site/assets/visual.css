@@ -188,3 +188,10 @@
  .visual-process li:not(:last-child)::after{right:auto;left:50%;top:auto;bottom:-10px;transform:rotate(135deg)}
  .visual-process small{grid-column:2}
 }
+
+/* 03.2 — one brand symbol in the studio/footer sequence on portrait phones. */
+.studio-sign>.brand-js{width:clamp(64px,9vw,110px);height:auto;flex:none;color:#fff}
+@media(max-width:850px) and (max-aspect-ratio:3/4){
+ .footer-home .footer-brand img{display:none}
+ .footer-home .footer-brand a{gap:0}
+}
