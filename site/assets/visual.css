@@ -105,3 +105,57 @@
 .showcase-tarifvergleich-physik>.showcase-details,.showcase-cashtracker>.showcase-details,.showcase-kalkulation-webbased>.showcase-details{grid-template-columns:1fr;margin:0}
 @media(max-width:850px){.visual-skolary-hero,.local-band,.studio-portrait,.project-status{grid-template-columns:1fr}.studio-sign,.classic-link{border-left:0;border-top:1px solid var(--line);padding:20px 0 0}.hero-concept{max-width:480px;margin:auto}.local-band figure{max-width:540px;margin:auto}.connected-layout{grid-template-columns:1fr}.grade-side{border-right:0;border-bottom:1px solid var(--line);padding:0 0 18px;grid-template-columns:90px 1fr;column-gap:16px;align-items:center}.grade-side img{grid-row:1/span 2}.grade-side h3{margin:0}.grade-side p{grid-column:2}.project-status{gap:12px}}
 @media(max-width:599px){.visual-project .project-glance{gap:12px;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.visual-project .project-glance p{font-size:.88rem}.visual-process{gap:8px}.visual-process li{padding:11px 7px}.visual-process strong{font-size:.82rem}.visual-process small{font-size:.74rem}.visual-process li:not(:last-child)::after{right:-7px;width:4px;height:4px}.device-labels{gap:7px}.device-labels strong{font-size:.78rem}.device-labels small{font-size:.72rem}.example-result{grid-template-columns:1fr;gap:10px}.example-result .result-number{grid-row:auto;border-right:0;border-bottom:1px solid var(--line);padding:0 0 12px}.showcase-tarifvergleich-physik,.showcase-cashtracker,.showcase-kalkulation-webbased{grid-template-columns:1fr}.visual-details summary{font-size:.9rem}.visual-showcase .app-preview-bar{font-size:.72rem}}
+
+/* Update 03: Original Enhanced. Restore the original portfolio, retain the new product illustrations. */
+#open-source .section-head p{max-width:360px}
+#open-source .portfolio-card{padding:clamp(18px,2.4vw,28px)}
+#open-source .portfolio-card .status{margin-bottom:15px}
+#open-source .portfolio-card p{margin:15px 0 0;max-width:52ch;font-size:.97rem;line-height:1.65}
+#open-source .portfolio-card .tags{margin:16px 0 20px}
+#open-source .portfolio-card .button{margin-top:auto}
+#open-source .portfolio-card .repo-link{margin-top:10px}
+.studio-portrait{grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr)}
+.studio-portrait .studio-statement{max-width:650px}
+.studio-sign small{display:block;margin-top:9px}
+.studio-sign p{font-size:.94rem}
+.visual-heading{max-width:850px}
+.visual-heading .principle-label{font-size:.83rem;color:var(--accent);font-weight:650;margin-top:10px}
+.supporting-copy{color:var(--muted);font-size:.96rem;line-height:1.7;max-width:84ch;margin:24px 0 0}
+.local-band .data-note{grid-column:1/-1;margin:0}
+.project-status .visual-caption{font-size:.9rem}
+.hero-concept figcaption,.device-illustration figcaption,.local-band figcaption{font-size:.78rem}
+.enhanced-showcase .app-preview{padding:clamp(10px,1.5vw,18px);border-radius:15px}
+.enhanced-showcase .app-preview-bar{padding:0 2px 9px;font-weight:600}
+.enhanced-showcase .app-preview figcaption{margin:10px 2px 0;text-align:left;line-height:1.45;font-size:.83rem;color:var(--muted)}
+.enhanced-showcase .notice{margin:20px 0 0;padding:20px 24px}
+.enhanced-showcase .notice p{max-width:90ch;line-height:1.7}
+.enhanced-showcase .showcase-details,.enhanced-showcase .lyrics-preview-grid{gap:14px;margin-top:14px}
+.enhanced-showcase .showcase-details .app-preview,.enhanced-showcase .lyrics-preview-grid .app-preview{align-self:start}
+.project-explanation .section-head,.project-workflow .section-head,.project-specs .section-head{margin-bottom:20px}
+.project-explanation .showcase-intro{max-width:85ch;margin-bottom:20px;line-height:1.7}
+.project-explanation .features,.project-workflow .features{gap:12px 24px}
+.project-explanation .features article{padding:15px 0;border:0;border-radius:0;border-top:1px solid var(--line);background:none}
+.project-explanation .features article>span,.project-workflow .features article>span{font-size:.72rem;color:var(--accent)}
+.project-explanation .features article h3,.project-workflow .features article h3{font-size:1.06rem;line-height:1.35;margin:6px 0 7px}
+.project-explanation .features article p,.project-workflow .features article p{font-size:.94rem;line-height:1.65}
+.project-explanation .lyrics-origin{border:0;background:none;padding:0;margin:0;max-width:85ch}
+.project-explanation .lyrics-origin p{line-height:1.75}
+.project-workflow .features article{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+.project-workflow .section-head p:not(.eyebrow){max-width:340px}
+.project-specs .showcase-facts{gap:0 28px}
+.project-specs .showcase-facts>div{padding:11px 0;border:0;border-bottom:1px solid var(--line);border-radius:0;background:none;display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1fr);gap:12px;align-items:baseline}
+.project-specs .showcase-facts strong{font-size:.9rem}
+.project-specs .muted{font-size:.85rem;margin:16px 0 0}
+.project-notes{border-top:1px solid var(--line);padding:28px 0 42px;max-width:95ch;color:var(--muted)}
+.project-notes h3{color:var(--text);font-size:1.05rem;margin:18px 0 5px}
+.project-notes h3:first-child{margin-top:0}
+.project-notes p{font-size:.91rem;line-height:1.7;margin:0 0 8px}
+@media(max-width:850px){.studio-portrait{grid-template-columns:1fr}.project-explanation .features,.project-workflow .features{gap:12px 18px}}
+@media(max-width:599px){#open-source .portfolio-card{padding:20px}#open-source .portfolio-card p{font-size:.94rem}.project-explanation .features,.project-workflow .features{grid-template-columns:1fr;gap:10px}.project-explanation .features article{padding:12px 0}.project-specs .showcase-facts{grid-template-columns:1fr}.enhanced-showcase .notice{padding:16px}.supporting-copy{margin-top:18px}.project-notes{padding-bottom:30px}}
+
+/* Visual review refinements: balanced sections and meaningful numeric highlights. */
+@media(min-width:600px){.project-explanation .features:has(>article:nth-child(4):last-child){grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:1100px){.paired-showcase{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}.paired-showcase>.section-head,.paired-showcase>.notice{grid-column:1/-1}.paired-showcase>.section-head{margin-bottom:0}.paired-showcase>.app-preview{width:100%;min-width:0}.paired-showcase>.showcase-details{grid-template-columns:1fr;margin:0}.paired-showcase>.notice{margin-top:0}}
+.example-result .result-number{align-self:center}
+.example-result .result-number strong{font-size:clamp(1.8rem,3.5vw,2.8rem)}
+.example-result p{min-width:0}
