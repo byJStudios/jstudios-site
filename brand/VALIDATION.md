@@ -9,7 +9,7 @@
 - Desktop and mobile screenshots inspected.
 - Primary mark SVG is a polygon approximation of the approved PNG, mask IoU 99.30%; the approved raster master is not modified.
 
-The website is deployed through Cloudflare Workers with repository-only Git integration. Contact information is live; formal legal compliance remains unverified.
+Historical deployment at the time of this validation: Cloudflare Workers with repository-only Git integration. The current preferred deployment is Cloudflare Pages; see the root README. Contact information is live; formal legal compliance remains unverified.
 
 
 ## 2026-11-25 — site polish
