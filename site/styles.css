@@ -39,3 +39,6 @@ main.shell{flex:1 0 auto}
 .footer-organized .footer-bottom .motion-control{font-size:.78rem}
 @media(max-width:800px){.footer-organized .footer-main{grid-template-columns:repeat(3,minmax(0,1fr));gap:22px 16px}.footer-organized .footer-brand{grid-column:1/-1}}
 @media(max-width:420px){.footer-organized .footer-main{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 14px}.footer.footer-organized .footer-bottom{margin-top:22px}}
+
+/* Both major projects have equal navigation prominence. */
+@media(max-width:480px){.top nav{column-gap:9px;row-gap:5px}.top nav a{white-space:nowrap}}
