@@ -159,3 +159,32 @@
 .example-result .result-number{align-self:center}
 .example-result .result-number strong{font-size:clamp(1.8rem,3.5vw,2.8rem)}
 .example-result p{min-width:0}
+
+/* Original Enhanced 03.1 — optical centering and spacing */
+.visual-band{padding-block:clamp(40px,5vw,66px)}
+.visual-band .visual-heading{margin-bottom:30px}
+.visual-skolary-hero{gap:clamp(28px,5vw,76px)}
+.connected-layout{gap:clamp(24px,4vw,48px);align-items:center}
+.grade-side{padding-right:clamp(20px,3vw,36px)}
+.grade-side img{width:min(100%,154px)}
+.visual-process{gap:18px}
+.visual-process li{padding:20px 16px}
+.visual-process li:not(:last-child)::after{right:-12px}
+.device-group{width:min(100%,960px);margin:0 auto}
+.device-group .device-illustration{max-width:none}
+.device-group .device-labels{gap:14px;margin:20px 0 0}
+.hero-concept figcaption,.device-illustration figcaption,.local-band figcaption{margin-top:13px}
+.local-band{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,5vw,64px);align-items:center}
+.local-band .visual-heading{margin:0}
+.local-band .data-note{margin:16px 0 0;font-size:.9rem}
+.project-status{align-items:center}
+@media(max-width:850px){.local-band{grid-template-columns:1fr;gap:26px}.connected-layout{gap:22px}.grade-side{padding:0 0 20px}.local-band .visual-heading{margin:0}.visual-band .visual-heading{margin-bottom:24px}.local-band .visual-heading{margin-bottom:0}}
+@media(max-width:599px){.visual-band{padding-block:34px}.visual-process{gap:10px}.visual-process li{padding:13px 8px}.visual-process li:not(:last-child)::after{right:-8px}.device-group .device-labels{gap:8px}.device-group .device-labels small{font-size:.72rem}.hero-concept figcaption,.device-illustration figcaption,.local-band figcaption{margin-top:10px}}
+
+@media(max-width:480px){
+ .visual-process{grid-template-columns:1fr;gap:13px}
+ .visual-process li{display:grid;grid-template-columns:28px minmax(0,1fr);gap:3px 10px;padding:11px 13px}
+ .visual-process li>span{grid-row:1/span 2;align-self:center}
+ .visual-process li:not(:last-child)::after{right:auto;left:50%;top:auto;bottom:-10px;transform:rotate(135deg)}
+ .visual-process small{grid-column:2}
+}
