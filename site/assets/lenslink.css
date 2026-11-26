@@ -21,3 +21,37 @@
 .lenslink-major .app-preview{margin:0}
 @media(max-width:850px){.lenslink-stable-hero{grid-template-columns:1fr}.lenslink-stable-hero .app-preview{margin:0 auto;width:100%}}
 @media(max-width:800px){.lenslink-major .lenslink-major-image{border-left:0;border-top:1px solid var(--line)}}
+
+/* Editorial preview pass: actual screenshot crops, no altered interface pixels. */
+#projekte>.product .product-content{align-self:center}
+#projekte>.product .product-content p{font-size:clamp(1rem,1.2vw,1.12rem);line-height:1.65}
+#projekte>.product .product-content h4{font-size:clamp(1.48rem,2.1vw,1.85rem)}
+#projekte>.product .preview{padding:clamp(20px,3vw,34px);gap:14px}
+#projekte>.product .mock{width:min(100%,386px);padding:22px 19px 18px}
+#projekte>.product .mock-top{font-size:1.05rem}
+#projekte>.product .mock-top small{font-size:.72rem}
+#projekte>.product .mock-greeting{font-size:1.48rem;margin:20px 0 14px}
+#projekte>.product .mock small{font-size:.82rem}
+#projekte>.product .mock b{font-size:1.08rem}
+#projekte>.product .mock-list>div{font-size:.79rem;gap:7px}
+#projekte>.product .mock-pill{font-size:1rem}
+#projekte>.product .preview-note{font-size:.78rem}
+.lenslink-major .lenslink-major-image{padding:clamp(16px,2.7vw,32px);background:radial-gradient(ellipse at 50% 45%,#202e4580,transparent 72%),#0b0d12}
+.lenslink-editorial-cover{width:100%;margin:0;min-width:0;background:#0a0c11;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.lenslink-cover-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 15px;font-size:.95rem}
+.lenslink-cover-head span{font-size:.8rem;color:var(--muted)}
+.lenslink-editorial-cover>a{display:block}
+.lenslink-editorial-cover img{display:block;width:100%;height:auto}
+.lenslink-editorial-cover figcaption,.lenslink-editorial-shot figcaption{display:flex;align-items:center;justify-content:space-between;gap:8px 14px;flex-wrap:wrap;font-size:.82rem;color:var(--muted);line-height:1.45;text-align:left}
+.lenslink-editorial-cover figcaption{padding:11px 15px}
+.lenslink-editorial-cover figcaption a,.lenslink-editorial-shot figcaption a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.lenslink-editorial-shot{padding:clamp(8px,1vw,14px)!important;width:100%;min-width:0}
+.lenslink-editorial-shot img{width:100%;height:auto;border-radius:10px}
+.lenslink-editorial-shot figcaption{margin:11px 3px 1px}
+.lenslink-lenses .lenslink-menu-shot{max-width:640px;margin:auto}
+.lenslink-lenses .lenslink-control-shot{max-width:535px;margin:auto}
+.lenslink-stable-hero .lenslink-hero-shot{max-width:none}
+.lenslink-stable-hero .lenslink-hero-shot picture{display:block}
+.lenslink-lenses .lenslink-copy p:not(.eyebrow){font-size:1.02rem;line-height:1.7}
+@media(min-width:851px){.lenslink-lenses{grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(30px,5vw,70px)}}
+@media(max-width:480px){#projekte>.product .mock{padding:18px 13px 15px}#projekte>.product .mock-list>div{font-size:.72rem}#projekte>.product .mock small{font-size:.75rem}#projekte>.product .mock b{font-size:.98rem}.lenslink-cover-head,.lenslink-editorial-cover figcaption{padding:10px 12px}.lenslink-editorial-shot figcaption{font-size:.78rem}}
