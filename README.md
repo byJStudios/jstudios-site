@@ -1,6 +1,6 @@
 # JStudios website
 
-Independent software development, Skolary and seven open-source projects. Static public-facing site only; no private app source, credentials or user data.
+Independent software development, Skolary, LensLink and seven open-source projects. Static public-facing site only; no private app source, credentials or user data.
 
 **Preferred address:** https://jstudios.pages.dev/
 
@@ -30,7 +30,7 @@ See [brand kit](brand/README.md) and [validation](brand/VALIDATION.md). The orig
 - [Tarifvergleich Physik](https://github.com/julianschmitz19-wq/tarifvergleich-physik) — MIT
 - [VidMatch History Importer](https://github.com/julianschmitz19-wq/vidmatch-history-importer) — MIT
 
-Skolary is the active flagship project; its source remains private. Historical projects have startup checks, not comprehensive production acceptance.
+Skolary is the active flagship project; its source remains private. [LensLink](https://jstudios.pages.dev/projects/lenslink/) is an active Android-to-Windows webcam alpha prototype, built on Plugcam, scrcpy and Microsoft Windows-Camera Samples. No public LensLink download is offered yet. Historical projects have startup checks, not comprehensive production acceptance.
 
 ## Contact
 

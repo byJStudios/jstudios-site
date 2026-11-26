@@ -9,3 +9,7 @@ The preferred deployment is Cloudflare Pages (main branch, no build command, sit
 ## Approved extended glyph set
 
 The glyphs-extended.json file contains 81 owner-approved glyphs and 6,561 contour-based kerning pairs. All 15 original paths remain unchanged. Motion design approved: viewport reveal over 1/4 of the card/viewport height, 16 px travel, time-based damping (48 ms time constant), globally synchronized idle cursors and a 260 ms credit fade. Branding and wordmark assets are not covered by the individual project MIT licenses.
+
+## LensLink wordmark
+
+LensLink uses the approved glyph extension and contour-based kerning without changing the existing master or animation controller. The positions are documented in [lenslink-wordmark.json](lenslink-wordmark.json).

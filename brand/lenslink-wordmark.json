@@ -1,0 +1,55 @@
+{
+  "project": "LensLink",
+  "source": "glyphs-extended.json",
+  "source_master_sha256": "ea11b09f0e8603b3667b18176850919bbbc74c1b596d1163528c9370d358acf0",
+  "positions": [
+    [
+      ">",
+      0
+    ],
+    [
+      "L",
+      54.16
+    ],
+    [
+      "e",
+      123.32
+    ],
+    [
+      "n",
+      188.16
+    ],
+    [
+      "s",
+      256.99
+    ],
+    [
+      "L",
+      328.69
+    ],
+    [
+      "i",
+      393.69
+    ],
+    [
+      "n",
+      423.78
+    ],
+    [
+      "k",
+      494.17
+    ],
+    [
+      "_",
+      570.17
+    ]
+  ],
+  "viewBox": [
+    -8,
+    -8,
+    658,
+    102
+  ],
+  "motion": "Existing portfolio motion controller; scroll on home, hero typing on project page.",
+  "note": "Original approved glyph paths and kerning are reused without modifying the master."
+}
