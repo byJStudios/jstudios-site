@@ -30,7 +30,7 @@ See [brand kit](brand/README.md) and [validation](brand/VALIDATION.md). The orig
 - [Tarifvergleich Physik](https://github.com/julianschmitz19-wq/tarifvergleich-physik) — MIT
 - [VidMatch History Importer](https://github.com/julianschmitz19-wq/vidmatch-history-importer) — MIT
 
-Skolary is the active flagship project; its source remains private. [LensLink](https://jstudios.pages.dev/projects/lenslink/) is an active Android-to-Windows webcam alpha prototype, built on Plugcam, scrcpy and Microsoft Windows-Camera Samples. No public LensLink download is offered yet. Historical projects have startup checks, not comprehensive production acceptance.
+Skolary and [LensLink](https://jstudios.pages.dev/projects/lenslink/) are major projects. Skolary is in active private development. LensLink v0.1.0 is a published Android-to-Windows webcam, licensed Apache-2.0, built on Plugcam, scrcpy, Softcam and Microsoft Windows-Camera Samples. Official downloads: https://github.com/julianschmitz19-wq/LensLink/releases/tag/v0.1.0. Historical projects have startup checks, not comprehensive production acceptance.
 
 ## Contact
 
