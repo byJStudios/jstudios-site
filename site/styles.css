@@ -55,3 +55,9 @@ button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
 .section-jump a{min-height:32px;display:inline-flex;align-items:center}
 .checksum-link{display:block;font-size:.8rem;margin-top:8px}
 @media(max-width:480px){.top nav a{min-height:28px}.section-jump{gap:4px 14px;padding-bottom:18px}}
+
+/* 05.3: native fragment navigation targets the visible section label, not its padded wrapper. */
+html:has(main .section-jump){scroll-padding-top:clamp(24px,2.5vw,44px)}
+.jump-target{scroll-margin-top:0}
+.section-jump a{gap:5px;max-width:100%}
+.section-jump .jump-number{font-variant-numeric:tabular-nums;font-size:.78em;color:var(--accent);white-space:nowrap}
