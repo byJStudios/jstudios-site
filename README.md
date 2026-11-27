@@ -1,6 +1,12 @@
 # JStudios website
 
-Independent software development, Skolary, LensLink and seven open-source projects. Static public-facing site only; no private app source, credentials or user data.
+[![Platform: Web](https://img.shields.io/badge/Platform-Web-7656b5.svg)](https://jstudios.pages.dev/)
+[![Stack: HTML / CSS / JavaScript](https://img.shields.io/badge/Stack-HTML%20%2F%20CSS%20%2F%20JavaScript-3776ab.svg)](https://jstudios.pages.dev/)
+[![Hosting: Cloudflare Pages](https://img.shields.io/badge/Hosting-Cloudflare%20Pages-16889c.svg)](https://pages.cloudflare.com/)
+[![Status: Live](https://img.shields.io/badge/Status-Live-34841d.svg)](https://jstudios.pages.dev/)
+[![License: Rights reserved](https://img.shields.io/badge/License-Rights%20reserved-356bb4.svg)](LICENSE)
+
+Independent software development, Skolary, LensLink and seven publicly available software projects. Static public-facing site only; no private app source, credentials or user data.
 
 **Preferred address:** https://jstudios.pages.dev/
 
@@ -18,20 +24,24 @@ Cloudflare Pages is connected to main with no build command and output directory
 
 ## Branding
 
-See [brand kit](brand/README.md) and [validation](brand/VALIDATION.md). The original glyph master and approved extension are immutable design sources. All wordmark variants share their vector outlines. JStudios branding assets are separate from the MIT-licensed application source.
+See [brand kit](brand/README.md) and [validation](brand/VALIDATION.md). The original glyph master and approved extension are immutable design sources. All wordmark variants share their vector outlines. JStudios branding assets are separate from the software licenses of individual projects.
 
 ## Projects
 
-- [Audio Analyzer](https://github.com/byJStudios/audio-analyzer) — MIT
-- [CashTracker](https://github.com/byJStudios/cashtracker) — MIT
-- [KalkulationWebBased](https://github.com/byJStudios/kalkulation-webbased) — MIT
+- [Audio Analyzer](https://github.com/byJStudios/audio-analyzer) — PolyForm Noncommercial 1.0.0 (earlier MIT rights preserved)
+- [CashTracker](https://github.com/byJStudios/cashtracker) — PolyForm Noncommercial 1.0.0 (earlier MIT rights preserved)
+- [KalkulationWebBased](https://github.com/byJStudios/kalkulation-webbased) — PolyForm Noncommercial 1.0.0 (earlier MIT rights preserved)
 - [Lyrics Merge](https://github.com/byJStudios/lyrics-merge) — MIT
 - [Skolary Classic](https://github.com/byJStudios/skolary-classic) — MIT
-- [Tarifvergleich Physik](https://github.com/byJStudios/tarifvergleich-physik) — MIT
-- [VidMatch History Importer](https://github.com/byJStudios/vidmatch-history-importer) — MIT
+- [Tarifvergleich Physik](https://github.com/byJStudios/tarifvergleich-physik) — PolyForm Noncommercial 1.0.0 (earlier MIT rights preserved)
+- [VidMatch History Importer](https://github.com/byJStudios/vidmatch-history-importer) — PolyForm Noncommercial 1.0.0 (earlier MIT rights preserved)
 
-Skolary and [LensLink](https://jstudios.pages.dev/projects/lenslink/) are major projects. Skolary is in active private development. LensLink v0.1.0 is a published Android-to-Windows webcam, licensed Apache-2.0, built on Plugcam, scrcpy, Softcam and Microsoft Windows-Camera Samples. Official downloads: https://github.com/byJStudios/LensLink/releases/tag/v0.1.0. Historical projects have startup checks, not comprehensive production acceptance.
+Skolary and [LensLink](https://jstudios.pages.dev/projects/lenslink/) are major projects. Skolary is proprietary software in active development, with a restricted browser pilot. See the [product privacy notice](https://jstudios.pages.dev/skolary/datenschutz/) and [terms of use](https://jstudios.pages.dev/skolary/nutzungsbedingungen/). LensLink v0.1.0 is a published Android-to-Windows webcam, licensed Apache-2.0, built on Plugcam, scrcpy, Softcam and Microsoft Windows-Camera Samples. Official downloads: https://github.com/byJStudios/LensLink/releases/tag/v0.1.0. Historical projects have startup checks, not comprehensive production acceptance.
 
 ## Contact
 
 jstudios.development@gmail.com. See the website for contact and privacy information; formal legal compliance is not certified.
+
+## Licensing
+
+[Project licensing overview](https://jstudios.pages.dev/lizenzen/). Previously granted MIT and Apache-2.0 rights are preserved. Website content and JStudios branding are not automatically licensed under the software project licenses. See [LICENSE](LICENSE).
