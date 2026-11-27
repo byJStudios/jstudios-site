@@ -22,15 +22,15 @@ See [brand kit](brand/README.md) and [validation](brand/VALIDATION.md). The orig
 
 ## Projects
 
-- [Audio Analyzer](https://github.com/julianschmitz19-wq/audio-analyzer) — MIT
-- [CashTracker](https://github.com/julianschmitz19-wq/cashtracker) — MIT
-- [KalkulationWebBased](https://github.com/julianschmitz19-wq/kalkulation-webbased) — MIT
-- [Lyrics Merge](https://github.com/julianschmitz19-wq/lyrics-merge) — MIT
-- [Skolary Classic](https://github.com/julianschmitz19-wq/skolary-classic) — MIT
-- [Tarifvergleich Physik](https://github.com/julianschmitz19-wq/tarifvergleich-physik) — MIT
-- [VidMatch History Importer](https://github.com/julianschmitz19-wq/vidmatch-history-importer) — MIT
+- [Audio Analyzer](https://github.com/byJStudios/audio-analyzer) — MIT
+- [CashTracker](https://github.com/byJStudios/cashtracker) — MIT
+- [KalkulationWebBased](https://github.com/byJStudios/kalkulation-webbased) — MIT
+- [Lyrics Merge](https://github.com/byJStudios/lyrics-merge) — MIT
+- [Skolary Classic](https://github.com/byJStudios/skolary-classic) — MIT
+- [Tarifvergleich Physik](https://github.com/byJStudios/tarifvergleich-physik) — MIT
+- [VidMatch History Importer](https://github.com/byJStudios/vidmatch-history-importer) — MIT
 
-Skolary and [LensLink](https://jstudios.pages.dev/projects/lenslink/) are major projects. Skolary is in active private development. LensLink v0.1.0 is a published Android-to-Windows webcam, licensed Apache-2.0, built on Plugcam, scrcpy, Softcam and Microsoft Windows-Camera Samples. Official downloads: https://github.com/julianschmitz19-wq/LensLink/releases/tag/v0.1.0. Historical projects have startup checks, not comprehensive production acceptance.
+Skolary and [LensLink](https://jstudios.pages.dev/projects/lenslink/) are major projects. Skolary is in active private development. LensLink v0.1.0 is a published Android-to-Windows webcam, licensed Apache-2.0, built on Plugcam, scrcpy, Softcam and Microsoft Windows-Camera Samples. Official downloads: https://github.com/byJStudios/LensLink/releases/tag/v0.1.0. Historical projects have startup checks, not comprehensive production acceptance.
 
 ## Contact
 
