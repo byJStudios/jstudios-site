@@ -28,13 +28,13 @@ See [brand kit](brand/README.md) and [validation](brand/VALIDATION.md). The orig
 
 ## Projects
 
-- [Audio Analyzer](https://github.com/byJStudios/audio-analyzer) — PolyForm Noncommercial 1.0.0 (earlier MIT rights preserved)
-- [CashTracker](https://github.com/byJStudios/cashtracker) — PolyForm Noncommercial 1.0.0 (earlier MIT rights preserved)
-- [KalkulationWebBased](https://github.com/byJStudios/kalkulation-webbased) — PolyForm Noncommercial 1.0.0 (earlier MIT rights preserved)
-- [Lyrics Merge](https://github.com/byJStudios/lyrics-merge) — MIT
-- [Skolary Classic](https://github.com/byJStudios/skolary-classic) — MIT
-- [Tarifvergleich Physik](https://github.com/byJStudios/tarifvergleich-physik) — PolyForm Noncommercial 1.0.0 (earlier MIT rights preserved)
-- [VidMatch History Importer](https://github.com/byJStudios/vidmatch-history-importer) — PolyForm Noncommercial 1.0.0 (earlier MIT rights preserved)
+- [Audio Analyzer](https://github.com/byJStudios/audio-analyzer) — PolyForm Noncommercial 1.0.0
+- [CashTracker](https://github.com/byJStudios/cashtracker) — PolyForm Noncommercial 1.0.0
+- [KalkulationWebBased](https://github.com/byJStudios/kalkulation-webbased) — PolyForm Noncommercial 1.0.0
+- [Lyrics Merge](https://github.com/byJStudios/lyrics-merge) — AGPL-3.0-only
+- [Skolary Classic](https://github.com/byJStudios/skolary-classic) — PolyForm Noncommercial 1.0.0
+- [Tarifvergleich Physik](https://github.com/byJStudios/tarifvergleich-physik) — PolyForm Noncommercial 1.0.0
+- [VidMatch History Importer](https://github.com/byJStudios/vidmatch-history-importer) — PolyForm Noncommercial 1.0.0
 
 Skolary and [LensLink](https://jstudios.pages.dev/projects/lenslink/) are major projects. Skolary is proprietary software in active development, with a restricted browser pilot. See the [product privacy notice](https://jstudios.pages.dev/skolary/datenschutz/) and [terms of use](https://jstudios.pages.dev/skolary/nutzungsbedingungen/). LensLink v0.1.0 is a published Android-to-Windows webcam, licensed Apache-2.0, built on Plugcam, scrcpy, Softcam and Microsoft Windows-Camera Samples. Official downloads: https://github.com/byJStudios/LensLink/releases/tag/v0.1.0. Historical projects have startup checks, not comprehensive production acceptance.
 
@@ -44,4 +44,4 @@ jstudios.development@gmail.com. See the website for contact and privacy informat
 
 ## Licensing
 
-[Project licensing overview](https://jstudios.pages.dev/lizenzen/). Previously granted MIT and Apache-2.0 rights are preserved. Website content and JStudios branding are not automatically licensed under the software project licenses. See [LICENSE](LICENSE).
+[Project licensing overview](https://jstudios.pages.dev/lizenzen/). Previously granted license rights remain unaffected. Website content and JStudios branding are not automatically licensed under the software project licenses. See [LICENSE](LICENSE).
