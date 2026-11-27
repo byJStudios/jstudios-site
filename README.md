@@ -45,3 +45,7 @@ jstudios.development@gmail.com. See the website for contact and privacy informat
 ## Licensing
 
 [Project licensing overview](https://jstudios.pages.dev/lizenzen/). Previously granted license rights remain unaffected. Website content and JStudios branding are not automatically licensed under the software project licenses. See [LICENSE](LICENSE).
+
+## Product principles
+
+JStudios builds practical tools for everyday use and learning. The applicable project licenses define the permitted uses; all other rights remain reserved. Skolary remains proprietary, while data portability is a core product principle: personal school records should remain usable independently of the app and its infrastructure. Open school-record exports (ZIP with HTML, CSV and JSON) and an independent offline reader for compatible encrypted backups have been implemented and automatically tested in v0.8.2 b36, but are not yet approved for production. See the [Skolary product page](https://jstudios.pages.dev/skolary/) for the current status.
